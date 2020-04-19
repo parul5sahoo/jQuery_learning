@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>theme custom</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <h2>Theme customization</h2>
+    <button id="actionbtn"> Change </button><br><br>
+
+    <div id="dateinput" title="My Calender"></div>
+
+    <div id="messagebox" title="Messagebox">
+        <h3>This a dummy title</h3>
+        <img src="pics/hware.png" width="200px">
+   </div>
+   <div class="panels" style="width: 80%;">
+       <div>Telusko Learnings</div>
+       <div>this is a huge tech edu channel.</div>
+
+       <h2>Simple Snippets</h2>
+       <p>this is an upcoming tech edu youtube channel. which was founded by Tanmay. And it has more than 30k subscribers.vuydffccuy</p>
+
+       <h2>MKBHD</h2>
+       <p>I like this channel a lot</p>
+       </div><br><br>     
+    
+   
+        
+        
+      </body>
+      <script type="text/javascript" ></script>
+      
+        
+        
+        <script>
+            $("#dateInput").datepicker({
+                numberOfMonths :1,
+                changeYear :true,
+                changeMonth :true,
+                showWeek:true,
+                weekHeader :"wk no",
+                showOtherMonths:true,
+                minDate: new Date(2017,0,5),
+                // in programming counting starts from 0 so 0=jan.
+                maxDate: new Date(2020,11,31)
+            });
+        </script>
+</html>

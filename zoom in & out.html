@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> Basic animation zoom in & out.</title>
+        <script type="text/javascript">
+        var width = 100;
+        var intervalID= 0;
+        var diff = 2;
+        
+        function increase()
+         {
+            clearInterval(intervalID);
+            intervalID=setInterval(expand,20);
+         }
+         function decrease()
+         {
+            clearInterval(intervalID);
+            intervalID=setInterval(shrink,20);
+         }
+
+
+         function shrink()
+        {
+            var img = document.getElementById("img1");
+            
+            if(width>100)
+            {
+                width=width-diff;
+                document.getElementById("img1").style.width=width;
+                console.log(width);
+            }
+            else{
+                clearInterval(intervalID);
+            }
+        }
+        function expand()
+        {
+            var img = document.getElementById("img1");
+           
+            if(width<200)
+            {
+                width=width+diff;
+                document.getElementById("img1").style.width=width;
+                console.log(width);
+            }
+            else{
+                clearInterval(intervalID);
+            }
+        }
+
+
+
+
+        </script>
+        
+    </head>
+    <body>
+        <br><br>
+        <img onmouseover="increase()" onmouseout="decrease()" id="img1" src="pics/goal.png" width="100px";/>
+        
+
+    </body>
+</html>

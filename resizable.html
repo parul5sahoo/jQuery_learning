@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>resizable in jQuery UI</title>
+        <link rel="stylesheet" href="css/style_2.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+      <h2>Resizable in jQuery</h2>
+      <div id="mydiv">
+          
+          <img id="resize" src="pics/goal.png"  title="Telusko" alt="" width="200px">
+      </div>
+    
+   
+        
+        
+      </body>
+      <script type="text/javascript" ></script>
+      <script>
+           $("#resize").resizable({
+               maxWidth:400,
+               maxHeight:400,
+               autoHide:true,
+               //distance:200,
+               ghost:true,
+               aspectRation:true,
+           }); 
+        </script>
+</html>

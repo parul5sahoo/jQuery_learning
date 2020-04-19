@@ -1,0 +1,151 @@
+<html>
+    <head> 
+        <title>Msgbox & autocomplete</title>
+        <link rel="stylesheet" href="css/style_2.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     </head>
+     <body>
+        <h2>Message Box</h2>
+         <div id="firstdiv" class="mydivs">
+         <h3>Hello welcome to Telusko Learnings</h3><br>
+         <button id="btn1">Click to show message box</button>
+         </div><br>
+         <div id="messagebox" title="Messagebox" class="mydivs">
+             <h3>This is just a dummy titile</h3>
+             <img src="pics/goal.png" width="200px">
+             
+         </div>
+         <h3>Autocomplete widget in jQuery-UI</h3>
+         <div id="mydiv">
+             <label><b>Enter your favourite city.</b></label>
+             <input type="text" name="" id="citytextbox">
+         </div> <br><br>   
+         <div id="mydiv">
+            <h3>Datepicker in jQuery UI</h3>
+            <input id="dateInput" placeholder="click to select date" type="text">
+        </div> <br><br>   
+        <h3>Accordion example</h3>
+         <div class="panels">
+         <div>Telusko Learnings</div>
+         <div>this is a huge tech edu channel.</div>
+
+         <h2>Simple Snippets</h2>
+         <p>this is an upcoming tech edu youtube channel. which was founded by Tanmay. And it has more than 30k subscribers.vuydffccuy</p>
+
+         <h2>MKBHD</h2>
+         <p>I like this channel a lot</p>
+         </div><br><br>    
+         <div id="mydiv">
+            <h3>Introduction to jQuery UI</h3>
+            <img id="img1" src="pics/goal.png" width="200px" title="Telusko" id="myimg">
+        </div> <br><br> 
+        <h2>Sortable in jquery UI</h2>
+        <div id="mydivs">
+          <div class="mycube">
+           <h3>CUBE 1</h3>
+          </div>
+         
+          <div class="mycube">
+             <h3>CUBE 2</h3>
+          </div>
+
+          <div class="mycube">
+            <h3>CUBE 3</h3>
+          </div>
+          
+         </div>  <br><br>
+         <!-- also applicable to text and images..  -->     
+      </body>
+
+      <script type="text/javascript" ></script>
+         <script>
+                $( "#btn1" ).click(function() {
+                  // alert("Button Clicked");
+                  $("#messagebox").dialog({
+                      title:"custom Message Box" ,
+                      draggable:true,
+                      resizable:true,
+                      height:300,
+                      width:300,
+                      modal:true,
+
+                     buttons:[
+                         {
+                             text: "close",
+                             icon: "ui-icon-heart",
+                             click: function() {
+                                 $(this).dialog("close");
+                             }
+                         },
+                         {
+                             text: "ok",
+                             icon: "ui-icon-heart",
+                             click: function() {
+                                 $(this).dialog("close");
+                             }
+                         }
+                     ]
+                    
+                     });
+                  });
+             
+         </script>
+         <script>
+            var myCities = ["Mumbai", "New Dehli", "Panjim", "pune", "Mysore", "Indore", "New York", "Los Angeles", "Manhattan", "Tokyo", "New Jersey"];
+               $( "#citytextbox" ).autocomplete({
+                   source: myCities
+               },{
+                   autoFocus: true,
+                   delay: 0,
+                   minLength: 3
+               }
+                 );
+          </script>
+          <script>
+            $("#dateInput").datepicker({
+                numberOfMonths :1,
+                changeYear :true,
+                changeMonth :true,
+                showWeek:true,
+                weekHeader :"wk no",
+                showOtherMonths:true,
+                minDate: new Date(2017,0,5),
+                // in programming counting starts from 0 so 0=jan.
+                maxDate: new Date(2020,11,31)
+            });
+        </script>
+        <script>
+            $( ".panels" ).accordion({
+               collapsible:true,
+               event:"click",
+               animate:300,
+               active:1,
+               heightStyle:true,
+               icons:{header:"ui-icon-pluS",activeHeader:"ui-icon-minus"}
+            });
+     </script>
+     
+     <script>
+        $("img").tooltip({
+          //  track:true,
+            content:"telusko is the best",
+            show:{effect:"blind",duration:2000},
+            hide:{effect:"explode",duration:2000}
+        });
+    </script>
+     <script>
+        $("#mydivs").sortable({
+          opacity:0.5,
+          distance:50,
+          //delay:300,
+          containment:"parent",
+          cursor: "grabbing",
+          // axis: "x",
+        });    
+     </script>
+</html>
