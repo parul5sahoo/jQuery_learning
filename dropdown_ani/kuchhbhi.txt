@@ -1,0 +1,155 @@
+ <div class="container mx-auto px-4 pt-6">
+        <div class="grid lg:grid-cols-3 gap-16">
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="dropdown p-6 rounded-lg shadow-lg">
+                    
+                    <img src="https://source.unsplash.com/random/350x350" alt="random image" class="object-cover object-center rounded-lg">
+        
+                    <div class="dropdown_content">
+                        <a class="ml-0 w-10 h-10 bg-green-500 flex items-center justify-center text-center no-underline rounded-full text-white hover:bg-green-300 absolute " href="#">
+                            <i class='text-xl fa fa-plus'></i>
+                        </a>
+                        <img src="Assets/woodboard.png" alt=" random imgee" class="object-cover object-center rounded-lg">
+                       
+                    </div>
+        
+                   
+                </div>
+            </div>
+    
+        </div>
+
+        </div>
+        
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,0 +1,36 @@
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+	background-position: center;
+
+}
+.container{
+	padding: 110px;
+}
+
+.gallery {
+    margin: 0 auto;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color:peachpuff;
+
+}
+
+.dropdown_content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+    transition-delay: 3s;
+    
+    
+}
